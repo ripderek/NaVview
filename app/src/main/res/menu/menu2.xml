@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_opcion_1"
+            android:icon="@drawable/ic_menu"
+            android:title="Sex products"/>
+        <item
+            android:id="@+id/menu_opcion_2"
+            android:icon="@drawable/ic_menu"
+            android:title="Sex clients"/>
+        <item
+            android:id="@+id/menu_opcion_3"
+            android:icon="@drawable/ic_menu"
+            android:title="Sex store"/>
+    </group>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Otros Sexos">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/ic_menu"
+                android:title="Other sex 1"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/ic_menu"
+                android:title="Other sex 2"/>
+        </menu>
+    </item>
+</menu>
